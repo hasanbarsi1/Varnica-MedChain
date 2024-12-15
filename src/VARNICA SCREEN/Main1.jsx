@@ -35,7 +35,7 @@ const Main1 = () => {
             {/* MAIN CONTAINER 1 */}
             <ul className='flex flex-row gap-[30px]'>
               {list.map((item, index) => (
-                <ButtonNeo1 onClick2={()=>document.getElementById(list[index].modal).showModal()} key={index} w = "250px"  h="150px" className=" mb-[30px] h-screen text-black flex gap-2 flex-col  items-center justify-center">
+                <ButtonNeo1 onClick2={()=>null} key={index} w = "250px"  h="150px" className=" mb-[30px] h-screen text-black flex gap-2 flex-col  items-center justify-center">
                   <i className={`bx bx-${list[index].icon} text-[55px] mb-[5px] bg-transparent hover:text-blue-500`}></i>
                   <span className='text-[15px] font-normal'>{list[index].title}</span>
                 </ButtonNeo1>
